@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    grid-area: 2 / 1 / 2 / 3;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    color: lightgray;
+    margin: 0;
+    height: 100%;
+    gap: 10px;
+}
+
+.github-logo{
+    max-width: 28px;
+    max-height: 28px;
+    color: var(--black);
+    transition: transform 0.3s ease-in-out;
+    filter: invert(99%) sepia(26%) saturate(179%) hue-rotate(297deg) brightness(113%) contrast(100%);
+}
+
+img:hover{
+    transform: rotate(360deg) scale(1.2);
+}
